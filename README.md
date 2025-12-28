@@ -15,3 +15,16 @@ pip install -r requirements.txt
 ```
 python main.py -k github
 ```
+
+## Article url format
+
+For example, https://telegra.ph/Telegraph-Parsing-12-28
+- **Telegraph-Parsing** - article title
+- **12** - month (december)
+- **28** - day
+
+If several articles with the same titles were published on the same date, then an ordinal number is added to the end of the url.
+
+**Example:**
+- https://telegra.ph/Telegraph-Parsing-12-28-2
+- https://telegra.ph/Telegraph-Parsing-12-28-3
