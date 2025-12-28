@@ -4,7 +4,7 @@ Async articles parser Telegra.ph
 
 ## Install
 
-```
+```bash
 git clone https://github.com/Ladvix/telegraph-parser.git
 cd telegraph-parser
 pip install -r requirements.txt
@@ -12,7 +12,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-```
+```bash
 python main.py -k github
 ```
 
